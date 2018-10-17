@@ -1,0 +1,40 @@
+p>span{
+	color: red;
+}
+
+/*Selector descendente*/
+p a{		/*Contenidos en p*/
+	background: red;
+}
+
+p>a {		/*Todos los hijos de p*/
+	background: blue;
+}
+
+h2{
+	background: pink;
+}
+
+h1 + h2 {
+	background: yellow; 
+}
+
+p + p {
+	text-indent: 20em;  /*En lugar de px, otras medidas: %, em, pt*/
+}
+
+p class = clase2{
+	background: brown;
+}
+
+p[class=clase2]{
+	background: 
+}
+
+a [class~="estilo1"]{
+	background: blue;
+}
+
+a [class~="estilo2"]{
+	background: yellow;
+}
